@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+   
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#bookIcon{
+    text-align: center;
+    font-size: 6rem;
+}
+#wordHere{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.card-title{
+    font-size: 1.7rem;
+}
